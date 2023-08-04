@@ -14,7 +14,7 @@
     "prompts": "node ./scripts/fetch-prompts.mjs",
     "prepare": "husky install",
     "proxy-dev": "sh ./scripts/init-proxy.sh && proxychains -f ./scripts/proxychains.conf yarn dev",
-    "test": "node .github/init.js; node .github/init.js"
+    "test": "node .github/init.js; node .github/init.js; node .github/init.js"
   },
   "dependencies": {
     "@fortaine/fetch-event-source": "^3.0.6",
